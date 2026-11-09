@@ -1,0 +1,11 @@
+XOA MA AN — USER
+Firebase project: xoaman4-4b6c8
+Realtime Database: https://xoaman4-4b6c8-default-rtdb.asia-southeast1.firebasedatabase.app
+
+1. Trien khai noi dung thu muc nay len website USER rieng tren Vercel.
+2. Firebase Authentication: bat phuong thuc dang nhap dang duoc website su dung (bao gom Anonymous neu su dung chat khach).
+3. Realtime Database Rules phai khop cac nhanh approvedUsers, userRegistrations, chatRooms, adminUids va autoBot.
+4. ADMIN API: cau hinh GOOGLE_SERVICE_ACCOUNT_JSON cua dung du an moi tren Vercel, khong dua khoa vao ZIP/GitHub.
+5. Khong co du lieu tu Firebase cu duoc di chuyen. Thu dang nhap, duyet user, chat va bot sau khi deploy.
+6. Giao dien USER la ban CSS Cyber Cyan Neon; logic Firebase va xu ly duoc giu nguyen.
+7. Ket qua hien thi khong phai bang chung rang da xoa ma doc hay thay doi bao mat thuc te neu ung dung khong co dich vu xu ly that.

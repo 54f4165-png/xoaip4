@@ -1,0 +1,18 @@
+CHUYEN FIREBASE MOI - xoaman4-4b6c8
+
+Da thay Firebase Web SDK trong cac trang HTML/JS va API server ADMIN. Giu nguyen giao dien, xu ly chuc nang va Google Analytics gtag cu (neu co).
+
+CAN LAM TRUOC KHI WEBSITE HOAT DONG:
+1. Firebase Console > Build > Realtime Database > Data: lay URL CHINH XAC.
+   URL tam su dung trong ma: https://xoaman4-4b6c8-default-rtdb.asia-southeast1.firebasedatabase.app
+   Neu database o khu vuc khac, tim/thay URL tam trong toan bo file .html/.js thanh URL thuc te.
+2. Firebase Authentication > Sign-in method: bat cac phuong thuc website su dung (Email/Password, Anonymous neu can).
+3. Realtime Database > Rules: sao luu Rules hien tai, sau do xem file database.rules.json de cap nhat cho du an MOI.
+4. Tao tai khoan ADMIN trong Firebase Authentication du an MOI, va dat adminUids/<UID_MOI> = true (boolean) trong RTDB Data.
+5. Du lieu approvedUsers/chatRooms/autoBot va tai khoan Auth KHONG tu dong chuyen tu du an cu. Can chuyen du lieu co quyen va phu hop neu muon giu.
+6. Firebase Authentication > Settings > Authorized domains: them domain website USER va ADMIN.
+7. Rieng ADMIN Vercel: cap nhat GOOGLE_SERVICE_ACCOUNT_JSON bang service account cua du an MOI trong Vercel Environment Variables. KHONG cho khoa service account vao ZIP/GitHub. Neu chua cap nhat, api/analytics.js va api/auto-bot.js se loi.
+8. GA4_PROPERTY_ID trong Vercel la Property ID dang so; measurementId moi G-XXQXGYTGCZ khong tu dong thay doi GA4 Property ID.
+9. Ma gtag tracking cu G-976BL2Q3J5 trong trang USER duoc GIU NGUYEN de khong tu y cat du lieu thong ke. Neu muon chuyen Analytics sang property moi, can doi rieng gtag ID va GA4_PROPERTY_ID.
+
+Cac gia tri Firebase SDK do ban cung cap duoc cap nhat; URL RTDB chua duoc cung cap nen CHUA THE XAC NHAN hoat dong cho den khi doi chieu Firebase Console.
